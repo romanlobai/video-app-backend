@@ -1,0 +1,36 @@
+{
+    "name": "video-app-backend",
+    "version": "1.0.0",
+    "description": "Video application backend",
+    "type": "module",
+    "main": "server.js",
+    "engines": {
+        "node": ">=20 <21",
+        "npm": ">=10"
+    },
+    "scripts": {
+        "dev": "nodemon server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@aws-sdk/client-s3": "3.490.0",
+        "@aws-sdk/lib-storage": "3.490.0",
+        "@fastify/cors": "8.5.0",
+        "@fastify/jwt": "8.0.0",
+        "@fastify/multipart": "8.1.0",
+        "@fastify/postgres": "5.2.2",
+        "@fastify/websocket": "8.3.1",
+        "aws-sdk": "2.1538.0",
+        "dotenv": "16.3.1",
+        "fastify": "4.25.2",
+        "fastify-plugin": "4.5.1",
+        "fluent-ffmpeg": "2.1.2",
+        "pump": "3.0.0",
+        "uuid": "9.0.1"
+    },
+    "devDependencies": {
+        "eslint": "8.56.0",
+        "nodemon": "3.0.3"
+    }
+}
